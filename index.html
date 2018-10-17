@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>千米注册页面</title>
+    <link rel="icon" href="img/wow.png" >
+    <style>
+    *{ padding:0; margin:0;}
+    ul li{list-style: none;
+        font-size: 30px;}
+    .gang{
+        width: 4px;
+        height: 47px;background:#666666;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    a{text-decoration: none;}
+
+        .head{
+            width: 100%;
+            height: 80px;}
+        .head .top{
+            width: 1200px;
+            height: 80px;
+            margin: 0 auto;
+            display: flex;}
+        .top .logo{
+            flex: 1;}
+    .top .top_01{
+        flex: 1;
+        color: #666666;
+        margin: auto;
+        font-size: 20px;
+    }
+    .top .middle{
+        flex: 5;
+    }
+    .top .right{
+        flex: 2;
+        background: white;
+        font-size: 20px;
+        color: #666666;
+        margin: auto;
+    }
+        .main{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+    }
+
+    .main_top{
+        font-size: 30px;
+        color: #666666;
+        margin: 0 auto;
+        width: 200px;
+        height: 120px;
+        line-height: 120px;
+        /*border: 1px solid red;*/
+    }
+        .main  input{
+            border: none;}
+
+    .phone{
+        border-bottom: 1px solid grey;
+        width: 500px;
+        height: 100px;
+        margin: 0 auto;
+    }
+    .phone lable{
+        line-height:100px ;
+
+    }
+    .input_phone{
+        outline:medium;
+        text-indent: 20px;
+    }
+    input[type=button]{
+        float: right;
+        margin-top: 30px;
+        background-color: transparent;
+        border: 1px solid pink;
+        color: pink;
+    }
+        footer{
+            margin: 0 auto;
+            width: 500px;
+            height: 295px;
+        }
+    .button_02{
+        width: 500px;
+        height: 83px;
+        background: pink;
+        font-size: 26px;
+        color: white;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+    }
+    .button_02:hover{
+        opacity: 0.7;
+    }
+    .footer_01{
+        text-align: center;}
+
+    .footer_02{
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+
+    .logo img{
+        position: relative;
+        top:14px;
+        right: 40px;
+    }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="top">
+            <div class="logo">
+                <a href="#"><img src="./img/logo.png" height="60" width="180"></a>
+            </div>
+            <div class="gang"></div>
+            <div class="top_01">免费注册</div>
+            <div class="middle"></div>
+            <div class="right">已有账号，<a href="#">登录</a></div>
+
+        </div>
+    </header>
+<section class="main">
+        <div class="main_top">新零售用千米</div>
+    <div class="phone">
+        <lable>手机号:</lable><input class="input_phone" type="text" placeholder="请输入手机号">
+    </div>
+
+    <div class="phone">
+        <lable>验证码:</lable><input class="input_phone" type="text" placeholder="请填验证码">
+        <input type="button" value="获取验证码" style=" width: 120px; height: 40px;   " ></input>
+    </div>
+
+    <div class="phone">
+        <lable>设置密码:</lable><input class="input_phone" type="text" placeholder="请填写6-20位密码">
+    </div>
+
+    <footer class="footer">
+        <div>
+            <button type="button" class="button_02" value="立即注册" >立即注册</button>
+        </div>
+            <div class="footer_01">点击上面的注册按钮即表示同意<a href="#">《注册协议》</a>
+        </div>
+        <div class="footer_02"><img src="img/footer.png" width="500" height="30"></div>
+
+    </footer>
+</section>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main markdown">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont icon-xiaodian"></i>
+                    <div class="name">小店</div>
+                    <div class="fontclass">.icon-xiaodian</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-jifenshangcheng"></i>
+                    <div class="name">积分商城</div>
+                    <div class="fontclass">.icon-jifenshangcheng</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-xujiqiyeban"></i>
+                    <div class="name">虚机-企业版</div>
+                    <div class="fontclass">.icon-xujiqiyeban</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-36buluo2"></i>
+                    <div class="name">36部落-2</div>
+                    <div class="fontclass">.icon-36buluo2</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-tongxunlu"></i>
+                    <div class="name">23通讯录</div>
+                    <div class="fontclass">.icon-tongxunlu</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-icon-windows-r"></i>
+                    <div class="name">icon-windows-r</div>
+                    <div class="fontclass">.icon-icon-windows-r</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-yidongduan"></i>
+                    <div class="name">移动端</div>
+                    <div class="fontclass">.icon-yidongduan</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-mac_download"></i>
+                    <div class="name">mac_download</div>
+                    <div class="fontclass">.icon-mac_download</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-hd_download"></i>
+                    <div class="name">hd_download</div>
+                    <div class="fontclass">.icon-hd_download</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-windows"></i>
+                    <div class="name">windows</div>
+                    <div class="fontclass">.icon-windows</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-caigou"></i>
+                    <div class="name">采购</div>
+                    <div class="fontclass">.icon-caigou</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-fenxiaoshangxiaoshouxiangqing"></i>
+                    <div class="name">分销商销售详情</div>
+                    <div class="fontclass">.icon-fenxiaoshangxiaoshouxiangqing</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont icon-weibiaoti-"></i>
+                    <div class="name">灯泡/灵感</div>
+                    <div class="fontclass">.icon-weibiaoti-</div>
+                </li>
+            
+        </ul>
+
+        <h2 id="font-class-">font-class引用</h2>
+        <hr>
+
+        <p>font-class是unicode使用方式的一种变种，主要是解决unicode书写不直观，语意不明确的问题。</p>
+        <p>与unicode使用方式相比，具有如下特点：</p>
+        <ul>
+        <li>兼容性良好，支持ie8+，及所有现代浏览器。</li>
+        <li>相比于unicode语意明确，书写更直观。可以很容易分辨这个icon是什么。</li>
+        <li>因为使用class来定义图标，所以当要替换图标时，只需要修改class里面的unicode引用。</li>
+        <li>不过因为本质上还是使用的字体，所以多色图标还是不支持的。</li>
+        </ul>
+        <p>使用步骤如下：</p>
+        <h3 id="-fontclass-">第一步：引入项目下面生成的fontclass代码：</h3>
+
+
+        <pre><code class="lang-js hljs javascript"><span class="hljs-comment">&lt;link rel="stylesheet" type="text/css" href="./iconfont.css"&gt;</span></code></pre>
+        <h3 id="-">第二步：挑选相应图标并获取类名，应用于页面：</h3>
+        <pre><code class="lang-css hljs">&lt;<span class="hljs-selector-tag">i</span> <span class="hljs-selector-tag">class</span>="<span class="hljs-selector-tag">iconfont</span> <span class="hljs-selector-tag">icon-xxx</span>"&gt;&lt;/<span class="hljs-selector-tag">i</span>&gt;</code></pre>
+        <blockquote>
+        <p>"iconfont"是你项目下的font-family。可以通过编辑项目查看，默认是"iconfont"。</p>
+        </blockquote>
+    </div>
+</body>
+</html>
